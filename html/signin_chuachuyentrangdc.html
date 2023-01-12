@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Official Signup Form Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- fonts -->
+<link href="//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<!-- /fonts -->
+<!-- css 
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />-->
+<link href="/css/signin.css" rel="stylesheet" type='text/css' media="all" />
+    <title>TRANG ĐĂNG NHẬP</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function login(e){
+        var username=document.getElementById("username").value;
+        var password=document.getElementById("password1").value;
+        var user =localStorage.getItem(username);
+        var data = JSON.parse(user);
+        if(user==null){
+            alert("Tài khoản không tồn tại!")
+        }else{
+            if(username==data.username && password==data.password){
+                alert("Đăng nhập thành công!");
+
+                window.location.href="https://youtube.com";
+            }else{
+                alert("Đăng nhập không thành công!");
+            }
+        }
+    }
+
+</script>
+<div style="font-size:50px; color:white; margin-left: 650px; margin-top: 80px; ">ĐĂNG NHẬP</div>
+<div class="content-w31s">
+    <div class="content-agile2" style="background-color:rgb(42, 42, 42); width: 400px; height: 250px; margin-left:38%;margin-top: 30px; border: 2px white solid;">
+		<form onsubmit="login()">
+			<div class="form-control w3layouts" style="position:relative; top:30px;"> 
+				<input type="text" id="username" name="username" placeholder="User Name" title="Please enter your User Name" required="">
+			</div>
+            <div class="form-control agileinfo" style="position:relative; top:30px;">	
+				<input type="password" class="lock" name="password" placeholder="Password" id="password1" required="" autocomplete="on">
+                
+			</div>		
+			<button class="register" style="position:relative; top:30px;">ĐĂNG NHẬP</button>
+            <a href="http://127.0.0.1:5500/html/main_page1%20login.html"><div class="xemthem">NEXT</div></a>
+
+            
+		</form>
+		
+	</div>
+</div>
+</body>
+</html>

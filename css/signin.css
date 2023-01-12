@@ -1,0 +1,193 @@
+body {
+	background:url(../TEST1.jpg) no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	font-family: 'Raleway', sans-serif;
+	font-weight:300;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+
+.content-w3ls .content-agile2 {
+	width: 50%;
+    float: left;
+    padding: 25px 0 0;
+    
+}
+
+@media (max-width: 736px) {
+    
+    .content-w3ls .content-agile2 {
+        width: 100%;
+        padding: 25px 0 30px;
+    }
+    .content-w3ls {
+        width: 65%;
+    }
+    }
+@media (max-width: 736px) {
+    .content-w3ls .content-agile2 {
+        width: 100%;
+        padding: 25px 0 30px;
+    }
+    
+}
+@media (max-width: 320px) {
+    .content-w3ls .content-agile1 {
+        width: 100%;
+        height: 180px;
+    }}
+    input#username,input#password1 {
+        width:300px;
+        height:50px;
+        padding:0 15px;
+        color:#fff;
+        font-size:17px;
+        font-weight:200;
+        background-color:transparent;
+        /*-- w3layouts --*/ 
+        border-bottom:5px solid #fff;
+        border-top-color:transparent;
+        border-left-color:transparent;
+        border-right-color:transparent;
+        font-family: 'Raleway', sans-serif;
+        margin:0 auto 20px;
+        display:block;
+        outline:none;
+    }
+    input#username:focus,input#password1:focus,input#username:hover,input#password1:hover {
+        color:#fff;
+        border-bottom:5px solid #3970b0;
+    }
+    input::-webkit-input-placeholder {
+    color: #fff !important;
+    } 
+    input:-moz-placeholder { /* Firefox 18- */
+    color: #fff !important;  
+    } 
+    input::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff !important;  
+    } 
+    input:-ms-input-placeholder {  
+    color: #fff !important;  
+    }
+    input:hover::-webkit-input-placeholder {
+    color: #3970b0 !important;
+    } 
+    input:hover:-moz-placeholder { /* Firefox 18- */
+    color:	#3970b0 !important;  
+    } 
+    input:hover::-moz-placeholder {  /* Firefox 19+ */
+    color: #3970b0 !important;  
+    } 
+    input:hover:-ms-input-placeholder {  
+    color: #3970b0 !important;  
+    }
+    @media (max-width: 1080px) {
+        /*-- agileits --*/
+    input#username, input#password1 {
+        font-size:15px;
+    }
+    }
+@media (max-width: 800px) {
+    input#username,input#password1{
+        width: 260px;
+    }
+    .register {
+        width: 295px;
+    }
+}
+@media (max-width: 384px) {
+    input#username, input#password1{
+        width: 230px;
+        height: 40px;
+    }
+    .register {
+        width: 260px;
+        height:45px;
+    }
+}
+input#username, input#password1 {
+    width: 195px;
+    height: 40px;
+font-size: 14px;
+}
+.register::-webkit-input-placeholder {
+	color: #fff !important;
+	} 
+.register::-moz-placeholder { 
+color: #fff !important;  
+	} */
+.register::-moz-placeholder {  
+	color: #fff !important;  
+	} 
+.regist::-ms-input-placeholder {  
+	color: #fff !important;  
+}
+.register:hover::-webkit-input-placeholder {
+	color: #3970b0 !important;
+} 
+.register:hover:-moz-placeholder {  
+	color:	#3970b0 !important;  
+} 
+.register:hover::-moz-placeholder {  
+	color: #3970b0 !important;  
+} 
+.register:hover:-ms-input-placeholder {  
+	color: #3970b0 !important;  
+}
+.register {
+    width: 335px;
+    margin: 30px auto;
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+    color: #fff;
+    background-color:#3970b0;
+    border-color: transparent;
+	font-family: 'Raleway', sans-serif;
+	/*-- w3ls --*/
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	cursor:pointer;
+}
+.register:hover {
+	color: #fff;
+    background-color:#3970b0;
+}
+.register {
+    width: 230px;
+    height: 40px;
+	font-size:15px;
+}
+.xemthem{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    width: 100px;
+    height: 30px;
+    border:1px black solid ;
+    border-radius: 4px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+	text-align: center;
+    color: black;
+ }
